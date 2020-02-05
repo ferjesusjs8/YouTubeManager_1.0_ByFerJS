@@ -5,13 +5,13 @@ VisualStudioVersion = 16.0.29728.190
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YouTubeManagerByFerJS", "YouTubeManagerByFerJS\YouTubeManagerByFerJS.csproj", "{6B9BF9E3-3AD0-4BDB-9980-28D27713F565}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YouTubeManagerByFerJS.Data", "YouTubeManagerByFerJS.Data\YouTubeManagerByFerJS.Data.csproj", "{270A2A3C-F30D-4AD4-9CC9-C9341369B00A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YouTubeManagerByFerJS.Domain", "YouTubeManagerByFerJS.Domain\YouTubeManagerByFerJS.Domain.csproj", "{A2D51AE3-A1C1-411F-85AC-8C19F4F3E3D2}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YouTubeManagerByFerJS.ExternalService", "YouTubeManagerByFerJS.ExternalService\YouTubeManagerByFerJS.ExternalService.csproj", "{B46BF3D3-8B7F-4968-B570-67CAA523587E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YouTubeManagerByFerJS.Data", "YouTubeManagerByFerJS.Data\YouTubeManagerByFerJS.Data.csproj", "{30210483-1DA7-4AA5-858B-37DB48756987}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YouTubeManagerByFerJS.Domain", "YouTubeManagerByFerJS.Domain\YouTubeManagerByFerJS.Domain.csproj", "{7C5D68CD-2A95-474D-BB58-2D0711A735DD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YouTubeManagerByFerJS.ExternalService", "YouTubeManagerByFerJS.ExternalService\YouTubeManagerByFerJS.ExternalService.csproj", "{616DCE63-8E3E-485C-B937-39DCC04B7458}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YouTubeManagerByFerJS.Test", "YouTubeManagerByFerJS.Test\YouTubeManagerByFerJS.Test.csproj", "{EF8CCFAB-CCE9-40E2-8C83-53E34A0AE6C1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YouTubeManagerByFerJS.Test", "YouTubeManagerByFerJS.Test\YouTubeManagerByFerJS.Test.csproj", "{C9BED3D3-38BF-4C02-9C89-11BA726FE6B0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,22 +23,22 @@ Global
 		{6B9BF9E3-3AD0-4BDB-9980-28D27713F565}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6B9BF9E3-3AD0-4BDB-9980-28D27713F565}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6B9BF9E3-3AD0-4BDB-9980-28D27713F565}.Release|Any CPU.Build.0 = Release|Any CPU
-		{270A2A3C-F30D-4AD4-9CC9-C9341369B00A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{270A2A3C-F30D-4AD4-9CC9-C9341369B00A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{270A2A3C-F30D-4AD4-9CC9-C9341369B00A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{270A2A3C-F30D-4AD4-9CC9-C9341369B00A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B46BF3D3-8B7F-4968-B570-67CAA523587E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B46BF3D3-8B7F-4968-B570-67CAA523587E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B46BF3D3-8B7F-4968-B570-67CAA523587E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B46BF3D3-8B7F-4968-B570-67CAA523587E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7C5D68CD-2A95-474D-BB58-2D0711A735DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7C5D68CD-2A95-474D-BB58-2D0711A735DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7C5D68CD-2A95-474D-BB58-2D0711A735DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7C5D68CD-2A95-474D-BB58-2D0711A735DD}.Release|Any CPU.Build.0 = Release|Any CPU
-		{EF8CCFAB-CCE9-40E2-8C83-53E34A0AE6C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EF8CCFAB-CCE9-40E2-8C83-53E34A0AE6C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EF8CCFAB-CCE9-40E2-8C83-53E34A0AE6C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EF8CCFAB-CCE9-40E2-8C83-53E34A0AE6C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2D51AE3-A1C1-411F-85AC-8C19F4F3E3D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2D51AE3-A1C1-411F-85AC-8C19F4F3E3D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2D51AE3-A1C1-411F-85AC-8C19F4F3E3D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2D51AE3-A1C1-411F-85AC-8C19F4F3E3D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30210483-1DA7-4AA5-858B-37DB48756987}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30210483-1DA7-4AA5-858B-37DB48756987}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30210483-1DA7-4AA5-858B-37DB48756987}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30210483-1DA7-4AA5-858B-37DB48756987}.Release|Any CPU.Build.0 = Release|Any CPU
+		{616DCE63-8E3E-485C-B937-39DCC04B7458}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{616DCE63-8E3E-485C-B937-39DCC04B7458}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{616DCE63-8E3E-485C-B937-39DCC04B7458}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{616DCE63-8E3E-485C-B937-39DCC04B7458}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9BED3D3-38BF-4C02-9C89-11BA726FE6B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9BED3D3-38BF-4C02-9C89-11BA726FE6B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9BED3D3-38BF-4C02-9C89-11BA726FE6B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9BED3D3-38BF-4C02-9C89-11BA726FE6B0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

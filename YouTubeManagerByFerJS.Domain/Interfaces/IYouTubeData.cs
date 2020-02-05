@@ -4,7 +4,7 @@ using System.Text;
 
 namespace YouTubeManagerByFerJS.Domain.Interfaces
 {
-    interface IYouTubeData
+    public interface IYouTubeData
     {
     }
 }

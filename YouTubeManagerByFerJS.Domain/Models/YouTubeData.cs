@@ -1,10 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using YouTubeManagerByFerJS.Domain.Interfaces;
 
 namespace YouTubeManagerByFerJS.Domain.Models
 {
-    class YouTubeData
+    public class YouTubeData : IYouTubeData
     {
     }
 }

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace YouTubeManagerByFerJS.Data.Repository
 {
-    class YouTubeDataRepository
+    public class YouTubeDataRepository
     {
     }
 }

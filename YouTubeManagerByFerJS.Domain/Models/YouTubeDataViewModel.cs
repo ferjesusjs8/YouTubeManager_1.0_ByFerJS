@@ -4,7 +4,7 @@ using System.Text;
 
 namespace YouTubeManagerByFerJS.Domain.Models
 {
-    class YouTubeDataViewModel
+    public class YouTubeDataViewModel
     {
     }
 }
