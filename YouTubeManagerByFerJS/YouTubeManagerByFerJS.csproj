@@ -16,6 +16,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\YouTubeManagerByFerJS.Domain\YouTubeManagerByFerJS.Domain.csproj" />
+    <ProjectReference Include="..\YouTubeManagerByFerJS.ExternalService\YouTubeManagerByFerJS.ExternalService.csproj" />
   </ItemGroup>
 
 </Project>

@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.DependencyInjection;
 using YouTubeManagerByFerJS.Domain.Interfaces;
 using YouTubeManagerByFerJS.Domain.Models;
+using YouTubeManagerByFerJS.ExternalService.API;
 
 namespace YouTubeManagerByFerJS
 {
@@ -12,6 +13,7 @@ namespace YouTubeManagerByFerJS
         {
             services.AddMvc();
             services.AddSingleton<IYouTubeData, YouTubeData>();
+            services.AddSingleton<IGetYouTubeData, GetYouTubeData>();
         }
 
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace YouTubeManagerByFerJS.ExternalService.API
 {
-    public class GetYouTubeData
+    public class GetYouTubeData : IGetYouTubeData
     {
     }
 }
